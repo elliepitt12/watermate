@@ -1,0 +1,537 @@
+/*Index page */
+ header {
+     background-color: #222222;
+     color: #ffffff;
+     padding: 30px;
+     font-family: Bree Serif;
+     font-size: 70px;
+}
+ header img {
+     height: auto;
+     width: 8%;
+}
+ body {
+     font-family:Bree Serif;
+     background-color:#000000;
+     color:white;
+}
+ .Banner img {
+     width: 100%;
+     opacity:0.5;
+     transition: 1s ease;
+}
+ .Banner img:hover {
+     opacity:0.8;
+     transition: 1s ease;
+}
+
+.Banner1 img {
+    width: 100%;
+    opacity:0.5;
+    transition: 1s ease;
+}
+.Banner1 img:hover {
+    opacity:0.8;
+    transition: 1s ease;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, 10%);
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: White;
+  text-shadow: 2px 2px 4px Black;
+}
+
+ h1 {
+     font-family: Arial, Helvetica, sans-serif;
+     color: White;
+     font-size: 65px;
+     text-shadow: 2px 2px 4px Black;
+     padding: 1%;
+     text-align: center;
+     background-color: #025002;
+}
+ nav.nav1 {
+     background-color: #ffffff;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     font-size:50px;
+     text-align: center;
+     text-shadow: 1px 1px 1px Black;
+     word-spacing: 80px;
+}
+
+  nav.nav1 img {
+    float: left;
+    margin-bottom: auto;
+    padding-top: 45px;
+
+}
+ nav.nav1 ul {
+     list-style: none;
+     width: 100%;
+     padding:1%;
+     margin:0;
+     text-align: center;
+}
+ nav.nav1 li {
+     display:inline;
+}
+ nav.nav1 a {
+     color:black;
+     text-decoration:none;
+     text-align: center;
+     padding: 1%;
+}
+ nav.nav1 li:last-of-type {
+     border-right: 0px;
+}
+ nav.nav1 a:hover {
+     color: #404040;
+}
+ input#menu, label {
+     display: none;
+}
+ .word-colour {
+     color: black;
+}
+ .word-colour:hover {
+     color: #404040;
+}
+ .highlight-word-colour {
+     color: #008000;
+}
+ .highlight-word-colour:hover {
+     color: #404040;
+}
+ h2 {
+     font-family:Black Han Sans;
+     font-size: 50px;
+     color:black;
+     text-align: center;
+}
+
+h3 {
+    font-family:Black Han Sans;
+    font-size: 23px;
+    color:black;
+}
+
+h4 {
+    font-family:Black Han Sans;
+    font-size: 23px;
+    color:White;
+}
+
+h5 {
+  font-family:Black Han Sans;
+  font-size: 23px;
+  color:black;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 1240px;
+}
+
+h6 {
+  font-family:Black Han Sans;
+  font-size: 23px;
+  color:black;
+  text-align: center;
+  padding-left: 140px;
+}
+
+h7 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: White;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px Black;
+  padding: 1%;
+  text-align: center;
+}
+ .leaf {
+     background-image: url("background.jpg");
+     width: 100%;
+     height: 760px;
+     display: grid;
+     grid-template-columns: 40fr 10fr 1fr;
+     column-gap: 0px;
+}
+
+ .leaf img {
+   border: 5px solid black;
+ }
+
+ .Design {
+   background-color: #025002;
+   width: 100%;
+   height: 800px;
+   display: grid;
+   grid-template-columns: 40fr 10fr 1fr;
+   column-gap: 0px;
+ }
+
+ .Data {
+   background-color: #025002;
+   width: 100%;
+   height: 800px;
+ }
+
+ .leaf2 {
+   background-image: url("background.jpg");
+   width: 100%;
+   height: 650px;
+ }
+
+
+.about {
+  text-align: center;
+}
+
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  color: White;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px Black;
+  padding: 1%;
+
+}
+ footer {
+     font-family: serif;
+     background-color: #222222;
+     color: black;
+     display: grid;
+     grid-template-columns: 0fr 100fr 100fr;
+     column-gap: 300px;
+     padding-left: 250px;
+     height: 350px;
+}
+ .Copyright {
+     background-color: #222222;
+     text-align: center;
+}
+ .Copyright2 {
+     padding-bottom: 10px;
+}
+ .Social {
+     padding-top: 1%;
+     float: left;
+     margin-bottom: auto;
+     padding-top: 45px;
+}
+ a:link {
+     color: #FCB00F;
+     background-color: transparent;
+     text-decoration: none;
+}
+ a:visited {
+     color: #FCB00F;
+     background-color: transparent;
+     text-decoration: none;
+}
+ a:hover {
+     color: #FCB00F;
+     background-color: transparent;
+     text-decoration: underline;
+}
+ a:active {
+     color: #FCB00F;
+     background-color: transparent;
+     text-decoration: underline;
+}
+
+ .contact {
+   background-color: white;
+   width: 100%;
+   height: 800px;
+   display: grid;
+   grid-template-columns: 2fr 10fr 0fr;
+   column-gap: 150px;
+ }
+
+ .left {
+      background-color: #025002;
+      text-align: center;
+ }
+
+input[type=text], select, textarea {
+  width: 70%; /* Full width */
+  padding: 12px; /* Some padding */
+
+  margin-top: 10px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  background-color: white;
+  padding: 2px;
+  float: left;
+}
+/*Homepage Ended */
+/* Media Query Overide Mobile */
+/*Mobile Homepage */
+ @media only screen and (max-width:599px) {
+     header {
+         background-color: black;
+    }
+     header img {
+         max-width: 100%;
+         max-height: 100%;
+    }
+     nav.nav1 li {
+         width:100%;
+         display:block;
+         text-align:left;
+         min-height:44px;
+         font-size: 80%;
+    }
+     aside {
+         width: 100%;
+    }
+     article {
+         width: 100%;
+    }
+     .collapsible-menu {
+         background-color: black;
+         padding: 0px 20px;
+    }
+     .collapsible-menu label {
+         font-size: 100%;
+         color:black;
+         display: block;
+         cursor: pointer;
+         background: url(../graphics/hamburger.jpg) no-repeat left center;
+         padding: 10px 0 10px 50px;
+    }
+     input:checked +label {
+         background-image: url(../graphics/hamburger.jpg);
+    }
+     nav.nav1 {
+         max-height: 0;
+         overflow: hidden;
+         padding: 0 0 0 50px;
+    }
+    /* Toggle Effect */
+     input:checked ~ label {
+         background-image: url(../graphics/hamburger.jpg);
+    }
+     input:checked ~ nav.nav1 {
+         max-height: 100%;
+    }
+     h1 {
+         font-size: 400%;
+    }
+     .movies img {
+         width: 49.5%;
+         height: 600px;
+    }
+     .Copyright {
+         background-color: #FCB00F;
+    }
+     .Copyright2 {
+         padding-bottom: 10px;
+    }
+     .Social {
+         width: 70%;
+         height: 70%;
+         padding-left: 30%;
+         padding-top: 1%;
+         vertical-align: bottom;
+    }
+}
+/* Mobile Homepage ended */
+/*History Webpage */
+ .image1 video {
+     width: 618px;
+     height: 363px;
+}
+ .image1 {
+     float: left;
+     opacity:0.5;
+     transition: 1s ease;
+}
+ .image1:hover {
+     opacity:1;
+     transition: 1s ease;
+}
+ h3.Title {
+     font-family: Bree Serif, opacity 50%;
+     color: red;
+     font-size: 60px;
+     -webkit-text-stroke: 2px red;
+     text-align: center;
+     float: left;
+     clear: right;
+     padding-left: 10px;
+}
+ .copy1 {
+     float: left;
+     width: 50%;
+     margin: 0px 0px 0px 0px;
+     padding-left: 10px;
+}
+ .para1 {
+     float: left;
+}
+ .Seperate1 {
+     width: 100%;
+}
+/*History Webpage ended */
+/*History Webpage mobile view */
+ @media only screen and (max-width:599px) {
+     .image1 {
+         width: 100%;
+         height: 363px;
+    }
+     .image1 video {
+         width: 100%;
+         height: 363px;
+    }
+     .popular1 img {
+         width: 599px;
+         max-width: 49.5%;
+         height: 600px;
+    }
+}
+/*History Webpage mobile view ENDED */
+/* Popular Webpage */
+ * {
+     margin: 0;
+     padding: 0;
+}
+
+ .container {
+     width: 100%;
+     height: 682px;
+     margin: auto;
+     overflow: hidden;
+}
+ .container .slider {
+     position: relative;
+     width: 500%;
+     margin: 0;
+     left: 0;
+     top: 0;
+     animation: animate 30s infinite ease-in-out;
+}
+ .container .slider img {
+     width: 20%;
+     float: left;
+}
+ @keyframes animate {
+     0%,120%{
+         left: 0
+    }
+     20%{
+         left: 0
+    }
+     40%{
+         left: -100%
+    }
+     60%{
+         left: -200%
+    }
+     80%{
+         left: -300%
+    }
+     100%{
+         left: -400%
+    }
+     120%{
+         left: -600%
+    }
+}
+ .popular1 img {
+     width: 375px;
+     height: 600px;
+     background-color: black;
+}
+/* Popular Webpage ended*/
+/*Popular Mobilepage*/
+ @media only screen and (max-width:599px) {
+     .container .slider img {
+         float: left;
+         padding-top: 10%;
+    }
+}
+/*Popular Mobilepage end*/
+/*Contact Webpage start*/
+ .Contact {
+     background-color: #C90000;
+}
+ .contact-text {
+     font-family: Bree Serif-opacity 50%;
+     color: #FCB00F;
+     font-size: 90px;
+     -webkit-text-stroke: 3px #FCB00F;
+     text-align: center;
+     background-color: #C90000;
+     width: 50%;
+     height: 500px;
+     padding-left: 12%;
+}
+ .contact-body {
+     font-size: 40px;
+     background-color: #C90000;
+     width: 50%;
+     height: 500px;
+     font-family:Bree Serif;
+     color:white;
+     float: left;
+     text-align: center;
+}
+ .contact-form {
+     background-color: #C90000;
+     width: 50%;
+     height: 500px;
+     float: left;
+}
+ form {
+     background-color: #C90000;
+     padding-left: 60%;
+     height: 500px;
+}
+ .form-text {
+     font-size: 30px;
+     background-color: #C90000;
+     font-family:Bree Serif;
+     color:white;
+}
+/*Contact Webpage ended*/
+/*Contact Mobile*/
+ @media only screen and (max-width:599px) {
+     .contact-body {
+         font-size: 30px;
+    }
+}
+/*Contact Mobile end*/
+/*References Webpage Start*/
+ .References {
+     padding: 1%;
+     background-color: red;
+}
+/*References Webpage Ended*/
+/* overrides css for mobile views up to 599px wide */
+/* END OF MOBILE OVERIDE STYLING */
+/* */
